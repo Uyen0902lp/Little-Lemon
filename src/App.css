@@ -1,0 +1,40 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primary: #FFFCF7;
+    --color-secondary: #FFF7EC;
+    --color-highlight: #F1BC56;
+    --color-highlight-hover: #f2a922;
+    --color-font-pp: #000000;
+    --color-font-gv: #5a6a5f;
+}
+
+body {
+    font-family: 'Poppins', 'Great+Vibes', sans-serif;
+    color: var(--color-font);
+    background: var(--color-primary);
+}
+
+h1 {
+    color: var(--color-font-pp);
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 100px;
+}
+
+@media screen and (max-width:1024px) {
+    .form-reserve h1 {
+        padding-left: 60px;
+    }
+}

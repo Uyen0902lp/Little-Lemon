@@ -1,0 +1,43 @@
+.nav-wrapper {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-left {
+    flex: 1;
+    align-items: center;
+    display: flex;
+}
+
+.nav-left img {
+   height: 2.5rem;
+   margin-left: 50px;
+   margin-top: 20px;
+}
+
+.nav-right {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.nav-list {
+    flex: 10; 
+}
+
+.nav-list > ul {
+    display: flex;
+    gap: 4rem;
+    justify-content: flex-end; 
+    margin-right: 105px;
+    font-family: 'Poppins';
+}
+
+.nav-list > ul > li:hover {
+    cursor: pointer;
+    color: var(--color-highlight);
+}
