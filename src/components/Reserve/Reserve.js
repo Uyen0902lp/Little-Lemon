@@ -4,10 +4,8 @@ import './reserve.css';
 const ReserveForm = () => {
 
   return (
-    <>
-        <div className='form-reserve'>
-            <h1>Reserve</h1>
-        </div>
+    <div>
+        <h1>Reserve</h1>
         <form id="reservation-form">
             <div className='form-intro'>
                 <h2>Please fill in the form</h2>
@@ -27,8 +25,7 @@ const ReserveForm = () => {
         <textarea id="note" placeholder="Note"></textarea>
         <button type="submit">Book</button>
         </form>
-    </>
-    
+    </div>
   );
 };
 

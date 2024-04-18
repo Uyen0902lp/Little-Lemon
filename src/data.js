@@ -75,3 +75,32 @@ export const dishes = [
     },
   ];
   
+
+
+export const testimonials = [
+    {
+        id: 1,  
+        text: "Everyone went crazy over them. They also couldn't believe how delicious they were. Totally impressed!",
+        author: 'Peter Brown'
+    },
+    {
+        id: 2,  
+        text: "Wonderful, beautiful, super tasty, and all natural sweets. Highly recommend Litle Lemon Restaurant and will dine again!",
+        author: 'Vanessa Lynn'
+    },
+    {
+        id: 3,  
+        text: "Best pasta ever!! Got them for a coworkers party and they were a hit! Definitely going back for any needs for sweets!",
+        author: 'James Parker'
+    },
+    {
+        id: 4,  
+        text: "Deliciously indulgent, perfect for sharing. A hit at every gathering!",
+        author: 'Tom R.'
+    },
+    {
+        id: 5,  
+        text: "Authentically flavorful and remarkably varied, it's become our family's new go-to spot for dinner!",
+        author: 'Linda J.'
+    },
+]
