@@ -22,7 +22,7 @@ const HeroSection = () => {
       <div className="hero-right">
         <div className="right-img">
           <img src={image} alt="Right plate" />
-          <div class="circle"></div>
+          <div className="circle"></div>
         </div>
       </div>
     </div>

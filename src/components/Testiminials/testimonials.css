@@ -50,4 +50,28 @@
     font-weight: bold;
     font-size: 0.9rem;
 }
-  
+
+@media screen and (max-width:1024px) {
+    .testimonials-container {
+        margin: 0 150px;
+    }
+}
+
+@media screen and (max-width:820px) {
+    .testimonials-container {
+        margin: 0 120px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .testimonials-container {
+        margin: 0;
+    }
+
+    .testimonial-item {
+        left: 130px;
+        width: 400px;
+        position: relative;
+    }
+}
+
