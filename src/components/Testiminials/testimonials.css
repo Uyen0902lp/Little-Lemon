@@ -1,9 +1,13 @@
 .testimonials-container {
     position: relative;
     padding: 30px;
-    margin: 0 200px;
+    margin: 0 200px 200px;
 }
   
+h1 {
+    margin-top: 80px;
+}
+
 .testimonial-item {
     display: none;
     flex-direction: column;
@@ -63,7 +67,7 @@
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 480px) {
     .testimonials-container {
         margin: 0;
     }

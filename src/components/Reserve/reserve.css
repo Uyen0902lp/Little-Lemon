@@ -90,7 +90,7 @@ button:hover {
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 480px) {
     #reservation-form {
         max-width: 450px; 
         padding: 30px 30px; 

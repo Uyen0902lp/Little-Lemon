@@ -104,3 +104,15 @@ export const testimonials = [
         author: 'Linda J.'
     },
 ]
+
+
+const chef1 = require('./assets/images/h6-team-1.jpg');
+const chef2 = require('./assets/images/h6-team-2.jpg');
+const chef3 = require('./assets/images/h6-team-3.jpg');
+const chef4 = require('./assets/images/h6-team-4.jpg');
+export const chefs = [
+    { id: 1, name: 'John Doe', title: 'Head Chef', image: chef1, des: "Passion for cooking is in his genes. He grew up appreciating outstanding food and service at an early age."},
+    { id: 2, name: 'Jane Smith', title: 'Sous Chef', image: chef2, des: "Passion for cooking is in her genes. She grew up appreciating outstanding food and service at an early age." },
+    { id: 3, name: 'Mike Johnson', title: 'Sous Chef', image: chef3, des: "Passion for cooking is in his genes. He grew up appreciating outstanding food and service at an early age." },
+    { id: 4, name: 'Emily Roberts', title: 'Sous Chef', image: chef4, des: "Passion for cooking is in her genes. She grew up appreciating outstanding food and service at an early age."}
+  ];
