@@ -5,7 +5,7 @@ import { dishes } from '../../data';
 const Menu = () => {
       return (
         <div>
-          <h1>Popular Dishes</h1>
+          <h1 id='Menu'>Popular Dishes</h1>
           <div className="dishes-container">
             <div className="dishes-grid">
               {dishes.map((dish) => (

@@ -4,7 +4,7 @@ import image from '../../assets/images/plate2.png'
 // 20:56-38:00
 const HeroSection = () => {
   return (
-    <div className="hero-section">
+    <div className="hero-section" id='HeroSection'>
       <div className="hero-left">
         <div className="left-intro">
           <p>Enjoy the Mediterranean cuisine with reasonable price</p>

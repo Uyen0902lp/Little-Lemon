@@ -7,7 +7,7 @@ import { FaXTwitter } from "react-icons/fa6";
 const About = () => {
   return (
     <div className="about">
-      <h1>Talented Chefs</h1>
+      <h1 id='About'>Talented Chefs</h1>
       <section className="chefs-section">
         <div className="chefs-container">
           {chefs.map((chef) => (

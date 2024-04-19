@@ -16,7 +16,7 @@ const Testimonials = () => {
 
   return (
     <div>
-        <h1>Testimonials</h1>
+        <h1 id='Testimonials'>Testimonials</h1>
         <div className="testimonials-container">
             {testimonials.map((testimonial, index) => (
                 <div

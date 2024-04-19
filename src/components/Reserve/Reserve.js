@@ -42,7 +42,7 @@ const ReserveForm = () => {
 
     return (
         <div>
-            <h1>Reserve</h1>
+            <h1 id='Reserve'>Reserve</h1>
             <form id="reservation-form" onSubmit={handleSubmit}>
                 <div className='form-intro'>
                     <h2>Please fill in the form</h2>
