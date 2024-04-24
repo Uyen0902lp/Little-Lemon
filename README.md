@@ -1,6 +1,14 @@
 # Little Lemon React App
 This is my React App for Coursera course: Meta Front-End Developer.
 All the images are from Google.
+- **Description**: Meta Front-End Developer Course Final Project. This is a
+web application for a Mediterranean cuisine restaurant to enhance online
+visibility and customer engagement.
+- **Technologies Used**: Reactjs, CSS, Javascript
+- **Features Implemented**:
+  - Menu Display: A section to display a list of popular dishes available at the restaurant.
+  - Table Reservation: Allows users to reserve table in advance.
+  - Responsive Navigation: Easy access to various section of the website
 
 ## UI Design
 ### Wireframe
